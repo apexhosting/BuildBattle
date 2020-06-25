@@ -1,0 +1,85 @@
+instances:
+  candyland:
+    lobbylocation: candyland,73.86413272336738,83.0,-40.98853218516298,-270.3,1.9499832
+    Endlocation: buildbattle_world,-228.5,26.0,295.5,-86.42502,0.0
+    minimumplayers: 2
+    maximumplayers: 8
+    mapname: candyland
+    signs:
+    - buildbattle_world,-215,28,294,0.0,0.0
+    plots:
+      '0':
+        minpoint: candyland,-4.0,69.0,30.0,0.0,0.0
+        maxpoint: candyland,-30.0,95.0,4.0,0.0,0.0
+      '1':
+        minpoint: candyland,-4.0,69.0,-2.0,0.0,0.0
+        maxpoint: candyland,-30.0,95.0,-28.0,0.0,0.0
+      '2':
+        minpoint: candyland,-4.0,69.0,-34.0,0.0,0.0
+        maxpoint: candyland,-30.0,95.0,-60.0,0.0,0.0
+      '3':
+        minpoint: candyland,-4.0,69.0,-66.0,0.0,0.0
+        maxpoint: candyland,-30.0,95.0,-92.0,0.0,0.0
+      '4':
+        minpoint: candyland,-36.0,69.0,-66.0,0.0,0.0
+        maxpoint: candyland,-62.0,95.0,-92.0,0.0,0.0
+      '5':
+        minpoint: candyland,-36.0,69.0,-34.0,0.0,0.0
+        maxpoint: candyland,-62.0,95.0,-60.0,0.0,0.0
+      '6':
+        minpoint: candyland,-36.0,69.0,-2.0,0.0,0.0
+        maxpoint: candyland,-62.0,95.0,-28.0,0.0,0.0
+      '7':
+        minpoint: candyland,-36.0,69.0,30.0,0.0,0.0
+        maxpoint: candyland,-62.0,95.0,4.0,0.0,0.0
+    gametype: SOLO
+    isdone: true
+    world: worldname
+  abstract:
+    lobbylocation: abstract,-75.06506131637043,77.0,37.96924334065026,270.14578,-1.3500017
+    Endlocation: abstract,-75.06506131637043,77.0,37.96924334065026,270.14578,-1.3500017
+    minimumplayers: 2
+    maximumplayers: 12
+    mapname: abstract
+    signs:
+    - buildbattle_world,-215,28,296,0.0,0.0
+    plots:
+      '0':
+        minpoint: abstract,-21.0,65.0,-27.0,0.0,0.0
+        maxpoint: abstract,5.0,89.0,-1.0,0.0,0.0
+      '1':
+        minpoint: abstract,-21.0,65.0,7.0,0.0,0.0
+        maxpoint: abstract,5.0,89.0,33.0,0.0,0.0
+      '2':
+        minpoint: abstract,-21.0,65.0,41.0,0.0,0.0
+        maxpoint: abstract,5.0,89.0,67.0,0.0,0.0
+      '3':
+        minpoint: abstract,-21.0,65.0,75.0,0.0,0.0
+        maxpoint: abstract,5.0,89.0,101.0,0.0,0.0
+      '4':
+        minpoint: abstract,13.0,65.0,75.0,0.0,0.0
+        maxpoint: abstract,39.0,89.0,101.0,0.0,0.0
+      '5':
+        minpoint: abstract,13.0,65.0,41.0,0.0,0.0
+        maxpoint: abstract,39.0,89.0,67.0,0.0,0.0
+      '6':
+        minpoint: abstract,13.0,65.0,7.0,0.0,0.0
+        maxpoint: abstract,39.0,89.0,33.0,0.0,0.0
+      '7':
+        minpoint: abstract,13.0,65.0,-27.0,0.0,0.0
+        maxpoint: abstract,39.0,89.0,-1.0,0.0,0.0
+      '8':
+        minpoint: abstract,47.0,65.0,-27.0,0.0,0.0
+        maxpoint: abstract,73.0,89.0,-1.0,0.0,0.0
+      '9':
+        minpoint: abstract,47.0,65.0,7.0,0.0,0.0
+        maxpoint: abstract,73.0,89.0,33.0,0.0,0.0
+      '10':
+        minpoint: abstract,47.0,65.0,41.0,0.0,0.0
+        maxpoint: abstract,73.0,89.0,67.0,0.0,0.0
+      '11':
+        minpoint: abstract,47.0,65.0,75.0,0.0,0.0
+        maxpoint: abstract,73.0,89.0,101.0,0.0,0.0
+    gametype: SOLO
+    isdone: true
+    world: worldname

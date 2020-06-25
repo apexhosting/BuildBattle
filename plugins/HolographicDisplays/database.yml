@@ -1,0 +1,7 @@
+welcome:
+  location: buildbattle_world, -217.500, 29.500, 284.500
+  lines:
+  - 'ICON: DIAMOND_AXE'
+  - ''
+  - '&3&lWelcome to Apex Build Battle'
+  - '&2&lClick a Sign to get started'
