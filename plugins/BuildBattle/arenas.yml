@@ -83,3 +83,61 @@ instances:
     gametype: SOLO
     isdone: true
     world: worldname
+  Dragon:
+    lobbylocation: Dragon,2217.9522089001025,245.0,82.44046989051452,98.39999,0.0
+    Endlocation: Dragon,2217.9522089001025,245.0,82.44046989051452,98.39999,0.0
+    minimumplayers: 2
+    maximumplayers: 16
+    mapname: Dragon
+    signs: []
+    plots:
+      '1':
+        minpoint: Dragon,2167.0,172.0,20.0,0.0,0.0
+        maxpoint: Dragon,2133.0,204.0,-14.0,0.0,0.0
+      '2':
+        minpoint: Dragon,2167.0,172.0,178.0,0.0,0.0
+        maxpoint: Dragon,2133.0,204.0,144.0,0.0,0.0
+      '3':
+        minpoint: Dragon,2167.0,172.0,336.0,0.0,0.0
+        maxpoint: Dragon,2133.0,204.0,302.0,0.0,0.0
+      '4':
+        minpoint: Dragon,2167.0,172.0,494.0,0.0,0.0
+        maxpoint: Dragon,2133.0,204.0,460.0,0.0,0.0
+      '5':
+        minpoint: Dragon,2005.0,172.0,494.0,0.0,0.0
+        maxpoint: Dragon,2039.0,204.0,460.0,0.0,0.0
+      '6':
+        minpoint: Dragon,2005.0,172.0,336.0,0.0,0.0
+        maxpoint: Dragon,2039.0,204.0,302.0,0.0,0.0
+      '7':
+        minpoint: Dragon,2005.0,172.0,178.0,0.0,0.0
+        maxpoint: Dragon,2039.0,204.0,144.0,0.0,0.0
+      '8':
+        minpoint: Dragon,2005.0,172.0,20.0,0.0,0.0
+        maxpoint: Dragon,2039.0,204.0,-14.0,0.0,0.0
+      '9':
+        minpoint: Dragon,1911.0,172.0,-14.0,0.0,0.0
+        maxpoint: Dragon,1877.0,204.0,20.0,0.0,0.0
+      '10':
+        minpoint: Dragon,1911.0,172.0,144.0,0.0,0.0
+        maxpoint: Dragon,1877.0,204.0,178.0,0.0,0.0
+      '11':
+        minpoint: Dragon,1911.0,172.0,302.0,0.0,0.0
+        maxpoint: Dragon,1877.0,204.0,336.0,0.0,0.0
+      '12':
+        minpoint: Dragon,1911.0,172.0,460.0,0.0,0.0
+        maxpoint: Dragon,1877.0,204.0,494.0,0.0,0.0
+      '13':
+        minpoint: Dragon,1749.0,172.0,494.0,0.0,0.0
+        maxpoint: Dragon,1783.0,204.0,460.0,0.0,0.0
+      '14':
+        minpoint: Dragon,1749.0,172.0,336.0,0.0,0.0
+        maxpoint: Dragon,1783.0,204.0,302.0,0.0,0.0
+      '15':
+        minpoint: Dragon,1749.0,172.0,178.0,0.0,0.0
+        maxpoint: Dragon,1783.0,204.0,144.0,0.0,0.0
+      '16':
+        minpoint: Dragon,1749.0,172.0,20.0,0.0,0.0
+        maxpoint: Dragon,1783.0,204.0,-14.0,0.0,0.0
+    gametype: SOLO
+    isdone: true

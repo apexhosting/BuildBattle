@@ -33,12 +33,20 @@ npc:
     new-finder-open-doors: false
     attack-range: 3.0625
     use-new-finder: false
+    new-finder:
+      iterations-per-tick: 5000
+      check-bounding-boxes: false
+      open-doors: false
+    disable-mc-fallback-navigation: true
+    minecraft:
+      max-fall-distance: 3
   default:
     look-close:
       enabled: false
       range: 5
       random-look-enabled: false
       random-look-delay: 60
+      disable-while-navigating: true
     pathfinding:
       range: 25.0
     random-talker: true
@@ -49,6 +57,8 @@ npc:
       range: 5
     text:
       '0': Hi, I'm <npc>!
+    waypoints:
+      cache-paths: false
   limits:
     default-limit: 10
     max-permission-checks: 100
@@ -56,6 +66,7 @@ npc:
     max-speed: 100
   tablist:
     disable: true
+    remove-packet-delay: 1
   chunks:
     always-keep-loaded: false
   skins:
@@ -80,8 +91,13 @@ npc:
   teleport-delay: -1
   controllable:
     use-boat-controls: true
+    ground-direction-modifier: 1.0
+    max-ground-speed: 0.5
   player-scoreboard-teams:
     enable: true
+  always-use-name-holograms: false
+  hologram:
+    default-line-height: 0.4
 advanced:
   check-minecraft-version: true
 economy:
