@@ -63,14 +63,16 @@ fea22ef0-3efd-463b-8d3f-cc0e543fa57c:
   particles: 0
   supervotes: 0
 bdc83502-6d75-4c26-a633-729e9ed81aee:
-  blocksplaced: 720
-  blocksbroken: 236
-  gamesplayed: 2
+  blocksplaced: 904
+  blocksbroken: 282
+  gamesplayed: 3
   wins: 0
-  loses: 2
+  loses: 3
   highestwin: 0
   particles: 0
   supervotes: 0
+  higestpoints: 2
+  totalpointsearned: 2
 28bb290c-cce5-481c-b158-d7f9a042100d:
   blocksplaced: 795
   blocksbroken: 100
@@ -98,3 +100,17 @@ bdc83502-6d75-4c26-a633-729e9ed81aee:
   highestwin: 34
   particles: 0
   supervotes: 0
+f0e7f028-4955-4dc8-8e40-d334ef0bd19a:
+  blocksplaced: 0
+  blocksbroken: 0
+  gamesplayed: 1
+  wins: 1
+  loses: 0
+  highestwin: 6
+  higestpoints: 6
+  totalpointsearned: 6
+  particles: 0
+  supervotes: 0
+  points: 0
+  gtb_points: 0
+  reports: 0

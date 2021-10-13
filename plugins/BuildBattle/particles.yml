@@ -477,3 +477,192 @@ LEGACY_FALLING_DUST:
   - '&7on your location'
   material-name: PAPER
   permission: particles.VIP
+SOUL_FIRE_FLAME:
+  displayname: '&6SOUL_FIRE_FLAME'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+ASH:
+  displayname: '&6ASH'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+CRIMSON_SPORE:
+  displayname: '&6CRIMSON_SPORE'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+WARPED_SPORE:
+  displayname: '&6WARPED_SPORE'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+SOUL:
+  displayname: '&6SOUL'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+DRIPPING_OBSIDIAN_TEAR:
+  displayname: '&6DRIPPING_OBSIDIAN_TEAR'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+FALLING_OBSIDIAN_TEAR:
+  displayname: '&6FALLING_OBSIDIAN_TEAR'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+LANDING_OBSIDIAN_TEAR:
+  displayname: '&6LANDING_OBSIDIAN_TEAR'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+REVERSE_PORTAL:
+  displayname: '&6REVERSE_PORTAL'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+WHITE_ASH:
+  displayname: '&6WHITE_ASH'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+LIGHT:
+  displayname: '&6LIGHT'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+DUST_COLOR_TRANSITION:
+  displayname: '&6DUST_COLOR_TRANSITION'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+VIBRATION:
+  displayname: '&6VIBRATION'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+FALLING_SPORE_BLOSSOM:
+  displayname: '&6FALLING_SPORE_BLOSSOM'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+SPORE_BLOSSOM_AIR:
+  displayname: '&6SPORE_BLOSSOM_AIR'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+SMALL_FLAME:
+  displayname: '&6SMALL_FLAME'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+SNOWFLAKE:
+  displayname: '&6SNOWFLAKE'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+DRIPPING_DRIPSTONE_LAVA:
+  displayname: '&6DRIPPING_DRIPSTONE_LAVA'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+FALLING_DRIPSTONE_LAVA:
+  displayname: '&6FALLING_DRIPSTONE_LAVA'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+DRIPPING_DRIPSTONE_WATER:
+  displayname: '&6DRIPPING_DRIPSTONE_WATER'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+FALLING_DRIPSTONE_WATER:
+  displayname: '&6FALLING_DRIPSTONE_WATER'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+GLOW_SQUID_INK:
+  displayname: '&6GLOW_SQUID_INK'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+GLOW:
+  displayname: '&6GLOW'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+WAX_ON:
+  displayname: '&6WAX_ON'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+WAX_OFF:
+  displayname: '&6WAX_OFF'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+ELECTRIC_SPARK:
+  displayname: '&6ELECTRIC_SPARK'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
+SCRAPE:
+  displayname: '&6SCRAPE'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: particles.VIP
