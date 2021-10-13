@@ -1,0 +1,220 @@
+#
+#         Build Battle configuration file
+#               Edit it by yourself
+#          Read descriptions CAREFULLY
+#   You don't want to break anything, do you?
+#
+
+# Locale of BuildBattle language. By default it's english.
+# Available localizations:
+#   default - uses messages from 'language.yml' file.
+#   de - Deutsche sprache          pl - Jezyk polski
+#   es - Idioma español            fr - Langue française
+#   zh - 简体中文                   vn - Tiếng Việt
+#   hu - Magyar nyelv              kr - 한국어
+#   tr - Türk dili                 id - Bhasa Indonesia
+#   et - Eesti keel                ru - Русский язык
+#   cs - Český jazyk               ro - Limba română
+#   ja - 日本語                     it - Lingua italiana
+#   lt - Lietuvių kalba            sl - Slovenščina
+#   pt_BR - Português (Brasil)     zh_tw - 中文(繁體)
+locale: default
+
+# Enable boss bar for the game?
+Boss-Bar-Enabled: true
+
+# Should we hook into bungee cord? (If you wanna use arena per server option)
+# You STILL need to use external addon for HUB server game signs
+# Check here for more info: https://wiki.plajer.xyz/minecraft/buildbattle/addons.php#bungee-signs-not-official
+BungeeActivated: false
+
+# Enable Inventory Manager for your games? (VERY USEFUL feature for MULTI ARENA)
+# This saves inventory of players and restores it after player leaves arena.
+# Saved elements: max health, health, food, experience, full inventory, armor contents, fire ticks, active potions
+InventoryManager: true
+
+# Basic permissions for game, permissions explained here: https://wiki.plajer.xyz/minecraft/buildbattle/cmds_and_perms.php#basic-permissions
+Basic-Permissions:
+  Full-Games-Permission: "buildbattle.fullgames"
+  # Permissions to edit/create arenas
+  Arena-Edit-Permission: "buildbattle.editgames"
+  # <arena> represents arena name (NOT MAP NAME!), for example: 'buildbattle.join.Build1'
+  # use 'buildbattle.join.*' to enable access to all arenas
+  Join-Permission: "buildbattle.join.<arena>"
+
+# Should /bb leave command be disabled?
+Disable-Leave-Command: false
+
+# Total build times of game modes
+Build-Time:
+  Classic: 480
+  Teams: 540
+  Guess-The-Build: 120
+
+# Should we fire some cool fireworks at location of every player after the game ends?
+Firework-When-Game-Ends: true
+
+# Total time of voting per player plot
+Voting-Time-In-Seconds: 20
+
+# Total time of voting for themes before starting
+Theme-Voting-Time-In-Seconds: 25
+
+# Default floor material name
+Default-Floor-Material-Name: log
+
+# Should mob spawning on arenas be disabled?
+Disable-Mob-Spawning-Completely: true
+
+# How many particle effects should have one spawned particle
+Amount-One-Particle-Effect-Contains: 20
+
+# Max amount of particles to spawn
+Max-Amount-Particles: 25
+
+# Time of refreshing particles
+Particle-Refresh-Per-Tick: 10
+
+# Should server be disabled after the game ends?
+Bungee-Shutdown-On-End: false
+
+# Should win commands be activated?
+Win-Commands-Activated: false
+
+# Should end game commands be activated?
+End-Game-Commands-Activated: false
+
+# Should second place commands be activated?
+Second-Place-Commands-Activated: false
+
+# Should third place commands be activated?
+Third-Place-Commands-Activated: false
+
+# Max amount of mobs to spawn per plot
+Mobs-Max-Amount-Per-Plot: 20
+
+# Time in lobby to wait before start
+Lobby-Starting-Time: 60
+
+# All game themes players will build.
+Themes:
+  # Solo themes.
+  Classic:
+    - Heart
+    - Castle
+    - Emoji
+    - House
+    - Flower
+  # Team mode themes.
+  Teams:
+    - Well
+    - Car
+    - Rainbow
+    - Arcade Machine
+  # Guess the build themes.
+  Guess-The-Build:
+    Easy:
+      - Apple
+      - Sun
+      - Bread
+      - Book
+      - Dollar
+    Medium:
+      - School Bus
+      - Horse
+      - Fountain
+      - Sumo
+      - Bicycle
+    Hard:
+      - Soccer
+      - Birthday Cake
+      - Typewriter
+      - Solar System
+
+# Should holiday events for Build Battle be enabled?
+# Eg. 4 days before and 4 days after Halloween
+# special themes will be applied!
+# USING THIS ALL THEMES FOR SOLO/TEAM WHEN SPECIAL DAY
+# OCCURS WILL BE REPLACED WITH HOLIDAY THEMES ONLY
+Holidays-Enabled: true
+
+# Special holiday themes ONLY FOR solo and teams
+# that will be used during holiday events if enabled.
+Holiday-Themes:
+  April-Fools:
+    - Hypercube
+    - Nothing
+    - Void
+    - Minecraft
+    - Mojang
+  Valentines-Day:
+    - Heart
+    - Love
+    - Cupid
+    - Chocolate Box
+  Halloween:
+    - Pumpkin
+    - Skeleton
+    - Jack'o'Lantern
+    - Candies
+  Christmas:
+    - Santa
+    - Presents
+    - Snowman
+    - Stocking
+
+# Theme names that are blacklisted.
+Blacklisted-Themes:
+  - Fuck
+
+# Blacklisted item names, you can't use them while building.
+Blacklisted-Item-Names:
+  - tnt
+  - diamond_block
+
+# Commands executed when player wins
+# Use %PLAYER% placeholder to replace it with winner's name
+Win-Commands:
+  First:
+    - say %PLAYER% won the game!
+  Second:
+    - say %PLAYER% become second
+  Third:
+    - say %PLAYER% became third
+
+# Commands executed for every player after the game ends
+End-Game-Commands:
+  - say %PLAYER% has played a game!
+
+# Should we block every not Build Battle associated commands in game?
+Block-Commands-In-Game: true
+
+# Commands which can be executed while being in game
+Whitelisted-Commands:
+  - me
+  - help
+
+# Should blocks behind game signs change their color based on game state?
+# They will change color to:
+# - white (waiting for players) stained glass
+# - yellow (starting) stained glass
+# - orange (in game) stained glass
+# - gray (ending) stained glass
+# - black (restarting) stained glass
+Signs-Block-States-Enabled: true
+
+Update-Notifier:
+  # Should we check for updates on plugin start/after admin join?
+  # You REALLY should have this true!
+  Enabled: true
+  # Should we inform you when beta version is out?
+  # BETA IS NOT ALWAYS AS STABLE AS NORMAL RELEASE!
+  Notify-Beta-Versions: true
+
+# Disable or enable MySQL database here, see mysql.yml for more
+DatabaseActivated: false
+
+# Don't modify.
+Version: 9
+
+# No way! You've reached the end! But... where's the dragon!?

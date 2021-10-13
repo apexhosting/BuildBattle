@@ -19,3 +19,123 @@
 
 
 
+
+
+last-created-npc-id: 1
+npc:
+  '1':
+    metadata:
+      cached-skin-uuid-name: speedsu_tw
+      cached-skin-uuid: 2b1bf027-73fb-44a2-ab5f-f1bdbd7dcc83
+    name: §d§lABSTRACT
+    uuid: 3e266266-45d6-49d0-b772-aa0f60b479c7
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        signature: hh8Tqjm0QgQhoDAw9V8mSqEtBxwmrjJ9U8HQwsXlIg8ySGsYUrom8uCzfBVi8/B74y2RsOjWrSaCIWoRlNQFvOaJRQnSCYKGXmSQMeSelim0PrNm+/YCvJDsaNKuqIZ7wHkG0BW5cZIFWjet62/UKGUecLFdx4DkEYnBmyeanBG8mH+93302Rsq309cbNWC6z68FCKPWX14uFQMCmmgqi8f5jcTpLnHLLEbl6fxW+Ayt8pXaLqPrCd50ckwAg71NDO/s89AATmqdVXUw7LXz6dabfdJvGze6ur+clUXDIs3p/wfrvHRZIPoUTLR1GAXiPZFHldUzG53a5iXRUYdtg8qXsNdIb94wuy7fk9FhHaZwuXCnRYFSIgi6Vgj0vQrtrN1AI/Fu+FrFmxEbreTUxAP+qBYNdfZ2MzP718hcnSRwFYic2LAaWleaH1UT+dyiomOtkESFrOZeTv9bzjakwmmZ6wdXUbj3fGj9s9toI5DfvEVTZ5WHjdoYTAcgpxLXRA43jPnOhNwLDqHt2wOQZOHWvty34o91z2dW6GqlHg1K0DshlWgi+O4AOy/CArkduUugQSYHP1RnpPAwvJkIIa6rqUA0/NnN8FmB/1dGF+lTbyvfVgKAxMLLmkq0a4Pz7/5TubEmkXa3wn4fm1JVHExPL3xR7AfFL6paddcPY+g=
+        skinName: speedsu_tw
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzNDE0MjU1NjUwMCwKICAicHJvZmlsZUlkIiA6ICIyYjFiZjAyNzczZmI0NGEyYWI1ZmYxYmRiZDdkY2M4MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTcGVlZFN1X1RXIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RlOGE4NTZlYmZhYjE3NjdmODAzM2Y5MjlhNzY5NWE1YjdkYWI3YWE1ZGNjMDQwMjQ1ZDg3OGNlMjA0MjY4N2EiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+        updateSkins: false
+      sneak:
+        sneaking: false
+      spawned: true
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: buildb join abstract
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      type: PLAYER
+      location:
+        bodyYaw: 99.89685
+        world: buildbattle_world
+        x: '-215.5691'
+        y: '26.0'
+        z: '298.4125'
+        yaw: '132.6107'
+        pitch: '0.0'
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,location,scoreboardtrait,equipment,commandtrait,mounttrait,lookclose,spawned,skintrait,sneak,owner,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '0':
+    metadata:
+      cached-skin-uuid-name: dumpliin
+      cached-skin-uuid: 1776e58d-1458-417a-b101-c9cd9ea634c0
+    name: §b§lCANDYLAND
+    uuid: 355fe8c7-bec0-4b6a-a8f7-615525b5d2c1
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        signature: j6YD+nbZqLUWfO8E6HS8cD9MG5EbciUb0nCqrlkusJ496Qyh6lpq/Jb7YniJM0rK+TxIzjZCKhIDpViE0p6CdSJmzJPP0vm5MnlxfaGDzj1UqGKm+qBquTNDuSWwYNT4uaWiOv952lxF3x2tRGNk6jT835hKV2QSCT1yA33W/pfCntSJkh+BPHd8e89wsKY4gteXyw/wrCdpLAhodKhUs1rmNRNwm/yIRxHTsMe/0Z9KLQSrA9EDH0bv7uaCzKsSfMIoQIcg+7rkUqCQtbIUDQnJtkvl8pQGY9Zzi7ycefj2j9vZ7dyUtDm+hvktsv21KPKsVxmOiKkIEDucPey7+B9GHi+b+NR0UvEnApLsSAUXlat/Fy7aeUnK+Ko9jwbdwkxVh/uYyqdV5YMerffg+9QFnIgKSGq0YOpc1KdpzfoOP4wXhoDAITkh8LIHmgAr29Fxo1cXdSDu7sMn1J57CpLSX4Rt4O6lSstl6yOMY5YQN9nzknL6MTapF+eguSt47xEkgHjGfddeh8AyPo/04mOFVLlihgTCVIDgxolWB5T9PPdW5kGwfrVygHCYKdeuqr0QJUqXy2AcW0KWrIV55Won//RO7sykxW5HI/lVWpy6YIe48G0KG0KML+ui6U4ry6rOROTJ8TGbCBouZfFW8C0s+Ipg/s1WJ6yFpBqcCNk=
+        skinName: dumpliin
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzNDE0MjY0MTUwOCwKICAicHJvZmlsZUlkIiA6ICIxNzc2ZTU4ZDE0NTg0MTdhYjEwMWM5Y2Q5ZWE2MzRjMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkdW1wbGlpbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83NDc0ODVlYjQ0ZjFkN2M0NzAyYTFkNzU4ODU1M2YxMTNmMzAzNDI4ODI5Mjg5ZWE5NGI1ZDc5ODhjYTM5N2FmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+        updateSkins: false
+      sneak:
+        sneaking: false
+      spawned: true
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: buildb join abstract
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      type: PLAYER
+      location:
+        bodyYaw: 83.07657
+        world: buildbattle_world
+        x: '-215.6251'
+        y: '26.0'
+        z: '292.8505'
+        yaw: '58.403'
+        pitch: '0.0'
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,location,scoreboardtrait,equipment,commandtrait,mounttrait,lookclose,spawned,skintrait,inventory,owner,sneak
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

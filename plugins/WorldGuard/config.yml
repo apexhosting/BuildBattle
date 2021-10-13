@@ -24,6 +24,8 @@ regions:
     location-flags-only-inside-regions: false
     max-region-count-per-player:
         default: 7
+    disable-bypass-by-default: false
+    announce-bypass-status: false
 auto-invincible: false
 auto-invincible-group: false
 auto-no-drowning-group: false
@@ -45,11 +47,13 @@ event-handling:
     interaction-whitelist: []
     emit-block-use-at-feet: []
     ignore-hopper-item-move-events: false
+    break-hoppers-on-denied-move: true
 protection:
     item-durability: true
     remove-infinite-stacks: false
     disable-xp-orb-drops: false
     disable-obsidian-generators: false
+    use-max-priority-association: false
 gameplay:
     block-potions: []
     block-potions-overly-reliably: false
@@ -100,6 +104,7 @@ mobs:
     block-other-explosions: false
     block-zombie-door-destruction: false
     block-creature-spawn: []
+    block-vehicle-entry: false
 player-damage:
     disable-fall-damage: false
     disable-lava-damage: false
@@ -144,6 +149,7 @@ dynamics:
     disable-crop-growth: false
     disable-soil-dehydration: false
     snow-fall-blocks: []
+    disable-coral-block-fade: false
 blacklist:
     use-as-whitelist: false
     logging:
@@ -160,3 +166,7 @@ blacklist:
             path: worldguard/logs/%Y-%m-%d.log
             open-files: 10
 custom-metrics-charts: true
+disable-permission-cache: false
+turtle-egg:
+    disable-creature-trampling: false
+    disable-player-trampling: false
