@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## 1.0
+## 2.0
 
 # BUILDBATTLE UPDATED TO 1.17
 
@@ -18,3 +18,11 @@ All notable changes to this project will be documented in this file.
 
 - Added new TAB.
 - Added new MOTD & Icon.
+
+## [1.0]
+
+### Added
+- Initial commit of pack to Github for version control
+
+[2.0]: https://github.com/apexhosting/Parkour/releases/tag/2.0
+[1.0]: https://github.com/apexhosting/Parkour/releases/tag/1.0
