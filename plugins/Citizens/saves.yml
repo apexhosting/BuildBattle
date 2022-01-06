@@ -76,7 +76,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: type,location,scoreboardtrait,equipment,commandtrait,mounttrait,lookclose,spawned,skintrait,sneak,owner,inventory
+    traitnames: mounttrait,scoreboardtrait,type,sneak,spawned,inventory,skintrait,location,owner,equipment,commandtrait,lookclose
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -134,7 +134,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: type,location,scoreboardtrait,equipment,commandtrait,mounttrait,lookclose,spawned,skintrait,inventory,owner,sneak
+    traitnames: mounttrait,scoreboardtrait,type,inventory,spawned,sneak,skintrait,location,owner,equipment,lookclose,commandtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
