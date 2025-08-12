@@ -1,0 +1,7 @@
+_DEFAULT_:
+  tabprefix: '%vault-prefix%'
+  tagprefix: '%vault-prefix%'
+  tabsuffix: ' %essentials_afk%'
+  tagsuffix: ' %essentials_afk%'
+  customtabname: '%essentials_nickname%'
+  # customtagname: '%essentials_nickname%'

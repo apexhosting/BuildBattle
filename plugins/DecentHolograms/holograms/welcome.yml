@@ -1,0 +1,18 @@
+location: buildbattle_world:-217.500:29.500:284.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: DIAMOND_AXE'
+    height: 0.6
+  - content: ''
+    height: 0.3
+  - content: '&3&lWelcome to Apex Build Battle'
+    height: 0.3
+  - content: '&2&lClick a Sign to get started'
+    height: 0.3
+  actions: {}

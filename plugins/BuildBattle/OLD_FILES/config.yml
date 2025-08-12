@@ -1,0 +1,282 @@
+#
+#         Build Battle configuration file
+#               Edit it by yourself
+#          Read descriptions CAREFULLY
+#   You don't want to break anything, do you?
+#
+
+# Locale of BuildBattle language. By default it's english.
+# Available localizations:
+#   default - uses messages from 'language.yml' file.
+#   de - Deutsche sprache          pl - Jezyk polski
+#   es - Idioma español            fr - Langue française
+#   zh - 简体中文                   vn - Tiếng Việt
+#   hu - Magyar nyelv              kr - 한국어
+#   tr - Türk dili                 id - Bhasa Indonesia
+#   et - Eesti keel                ru - Русский язык
+#   cs - Český jazyk               ro - Limba română
+#   ja - 日本語                     it - Lingua italiana
+#   lt - Lietuvių kalba            sl - Slovenščina
+#   pt_BR - Português (Brasil)     zh_tw - 中文(繁體)
+#   uk - Ukrainian                 be - Belarusian
+#   eu - Basque                    el - Greek
+locale: default
+
+# Enable boss bar for the game?
+Boss-Bar-Enabled: false
+
+# Should we hook into bungee cord? (If you wanna use arena per server option)
+# You STILL need to use external addon for HUB server game signs
+# Check here for more info: https://wiki.plugily.xyz/buildbattle/support/servertips#bungeecord-lobby-signs
+BungeeActivated: false
+
+# Enable Inventory Manager for your games? (VERY USEFUL feature for MULTI ARENA)
+# This saves inventory of players and restores it after player leaves arena.
+# Saved elements: max health, health, food, experience, full inventory, armor contents, fire ticks, active potions
+InventoryManager: true
+
+# Basic permissions for game, permissions explained here: https://wiki.plugily.xyz/buildbattle/setup/cmdsandperms#basic-permissions
+Basic-Permissions:
+  Full-Games-Permission: "buildbattle.fullgames"
+  # Permissions to edit/create arenas
+  Arena-Edit-Permission: "buildbattle.editgames"
+  # <arena> represents arena name (NOT MAP NAME!), for example: 'buildbattle.join.Build1'
+  # use 'buildbattle.join.*' to enable access to all arenas
+  Join-Permission: "buildbattle.join.<arena>"
+
+# Should /bb leave command be disabled?
+Disable-Leave-Command: false
+
+# Configure the time of the phases
+Time-Manager:
+  Guess-The-Build:
+    # Total time of theme selection
+    Theme-Selection-Time-In-Seconds: 15
+    # Total time of delay between rounds
+    Delay-Between-Rounds-In-Seconds: 5
+    # After guessing the time will be shortened by
+    Time-Shortener-In-Seconds: 10
+    # Total time of waiting before Delay-Between-Rounds-In-Seconds will come
+    # Will be triggered after all players guessed the theme
+    All-Guessed-In-Seconds: 5
+    # Total build time
+    Build-Time: 120
+    # Time in lobby to wait before start
+    Lobby-Starting-Time: 60
+  Classic:
+    # Total time of voting per player plot
+    Voting-Time-In-Seconds: 20
+    # Total time of voting for themes before starting
+    Theme-Voting-Time-In-Seconds: 25
+    # Total build time
+    Build-Time: 480
+    # Time in lobby to wait before start
+    Lobby-Starting-Time: 60
+  Teams:
+    # Total time of voting per player plot
+    Voting-Time-In-Seconds: 20
+    # Total time of voting for themes before starting
+    Theme-Voting-Time-In-Seconds: 25
+    # Total build time
+    Build-Time: 540
+    # Time in lobby to wait before start
+    Lobby-Starting-Time: 60
+
+# Should we fire some cool fireworks at location of every player after the game ends?
+Firework-When-Game-Ends: true
+
+# Default floor material name
+Default-Floor-Material-Name: log
+
+# Should mob spawning on arenas be disabled?
+Disable-Mob-Spawning-Completely: true
+
+# The list of restricted entities that can't be spawned in game
+Restricted-Entities-Spawn:
+#- zombie
+
+# How many particle effects should have one spawned particle
+Amount-One-Particle-Effect-Contains: 20
+
+# Max amount of particles to spawn
+Max-Amount-Particles: 25
+
+# Time of refreshing particles
+Particle-Refresh-Per-Tick: 10
+
+# Max amount of mobs to spawn per plot
+Mobs-Max-Amount-Per-Plot: 20
+
+# How many more points will the first 3 guessers get?
+Guessing-Points:
+  first: 0
+  second: 0
+  third: 0
+
+# All game themes players will build.
+Themes:
+  # Solo themes.
+  Classic:
+    - Heart
+    - Castle
+    - Emoji
+    - House
+    - Flower
+  # Team mode themes.
+  Teams:
+    - Well
+    - Car
+    - Rainbow
+    - Arcade Machine
+  # Guess the build themes.
+  Guess-The-Build:
+    Easy:
+      - Apple
+      - Sun
+      - Bread
+      - Book
+      - Dollar
+    Medium:
+      - School Bus
+      - Horse
+      - Fountain
+      - Sumo
+      - Bicycle
+    Hard:
+      - Soccer
+      - Birthday Cake
+      - Typewriter
+      - Solar System
+
+# Should holiday events for Build Battle be enabled?
+# Eg. 4 days before and 4 days after Halloween
+# special themes will be applied!
+# USING THIS ALL THEMES FOR SOLO/TEAM WHEN SPECIAL DAY
+# OCCURS WILL BE REPLACED WITH HOLIDAY THEMES ONLY
+Holidays-Enabled: true
+
+# Special holiday themes ONLY FOR solo and teams
+# that will be used during holiday events if enabled.
+Holiday-Themes:
+  April-Fools:
+    - Hypercube
+    - Nothing
+    - Void
+    - Minecraft
+    - Mojang
+  Valentines-Day:
+    - Heart
+    - Love
+    - Cupid
+    - Chocolate Box
+  Halloween:
+    - Pumpkin
+    - Skeleton
+    - Jack'o'Lantern
+    - Candies
+  Christmas:
+    - Santa
+    - Presents
+    - Snowman
+    - Stocking
+
+# Theme names that are blacklisted.
+Blacklisted-Themes:
+  - Fuck
+
+# Blacklisted item names, you can't use them while building.
+Blacklisted-Item-Names:
+  - tnt
+  - water
+
+# Blacklisted floor materials, you can't use them for the floor.
+Blacklisted-Floor-Materials:
+  - MOB_SPAWNER
+  - TNT
+  - AIR
+
+# Should we block every not Build Battle associated commands in game?
+Block-Commands-In-Game: true
+
+# Commands which can be executed while being in game
+Whitelisted-Commands:
+  - me
+  - help
+
+# At what intervals should players be notified of the remaining build time?
+Build-Left-Time-Message-Intervals: [15, 30, 60, 300, 240, 180, 120]
+
+# Should we enable short commands such as /start and /leave
+Enable-Short-Commands: false
+
+# Should blocks behind game signs change their color based on game state?
+# They will change color to:
+# - white (waiting for players) stained glass
+# - yellow (starting) stained glass
+# - orange (in game) stained glass
+# - gray (ending) stained glass
+# - black (restarting) stained glass
+Signs-Block-States-Enabled: true
+
+# Should we disable all chat related stuff?
+# It will disable the separated chat, for example
+Disable-Separate-Chat: false
+
+# With this true, players couldn't join to the game and can't switch to spectator.
+Disable-Spectators: false
+
+Update-Notifier:
+  # Should we check for updates on plugin start/after admin join?
+  # You REALLY should have this true!
+  Enabled: true
+  # Should we inform you when beta version is out?
+  # BETA IS NOT ALWAYS AS STABLE AS NORMAL RELEASE!
+  Notify-Beta-Versions: true
+
+# Disable or enable MySQL database here, see mysql.yml for more
+DatabaseActivated: false
+
+# Enable in game rewards? See rewards.yml for more...
+Rewards-Enabled: false
+
+# Enable another Head menu instead of our
+Command-Instead-Of-Head-Menu:
+  Enabled: false
+  # The command that should be executed
+  Command: heads
+
+# Enable an command on report item click
+Run-Command-On-Report:
+  Enabled: false
+  # The amount of reports that the target needs to execute this command.
+  # Leave it -1 to perform this command immediately.
+  Reports-Amount-To-Run: -1
+  # The command that should be executed - Placeholder: %reported%, %reporter%
+  Command: kick %reported%
+
+#Disable Party features of external party plugins (such as PAF, Parties ...)
+Disable-Parties: true
+
+#Announce the plot owner after voting stage
+#default false - plot owner will be announced at the beginning
+Announce-PlotOwner-Later: false
+
+Arena-Selector:
+  # Change items of arena selector
+  State-Item:
+    Waiting: LIME_wool
+    Starting: YELLOW_wool
+    In-Game: RED_wool
+    Ending: RED_wool
+    Restarting: RED_wool
+
+# Don't modify.
+Version: 19
+
+# No way! You've reached the end! But... where's the dragon!?
+# Don't edit it. But who's stopping you? It's your server!
+# Really, don't edit ;p
+# You edited it, huh? Next time hurt yourself!
+Do-Not-Edit:
+  File-Version: 1
+  Core-Version: 0

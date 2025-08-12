@@ -3,11 +3,11 @@
 # with caution, and make sure you know what each option does before configuring.
 # For a reference for any variable inside this file, check out the Spigot wiki at
 # http://www.spigotmc.org/wiki/spigot-configuration/
-# 
+#
 # If you need help with the configuration or have any questions related to Spigot,
-# join us at the IRC or drop by our forums and leave a post.
-# 
-# IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
+# join us at the Discord or drop by our forums and leave a post.
+#
+# Discord: https://www.spigotmc.org/go/discord
 # Forums: http://www.spigotmc.org/
 
 config-version: 12
@@ -27,6 +27,8 @@ settings:
   netty-threads: 4
   debug: false
   attribute:
+    maxAbsorption:
+      max: 2048.0
     maxHealth:
       max: 2048.0
     movementSpeed:
@@ -52,6 +54,7 @@ commands:
   log: true
   tab-complete: 0
   send-namespaced: true
+  enable-spam-exclusions: false
 advancements:
   disable-saving: false
   disabled:
@@ -61,6 +64,18 @@ stats:
   forced-stats: {}
 world-settings:
   default:
+    below-zero-generation-in-existing-chunks: true
+    simulation-distance: default
+    thunder-chance: 100000
+    unload-frozen-chunks: false
+    hopper-can-load-chunks: false
+    seed-nether: 30084232
+    seed-ancientcity: 20083232
+    seed-trailruins: 83469867
+    seed-trialchambers: 94251327
+    seed-buriedtreasure: 10387320
+    seed-mineshaft: default
+    seed-stronghold: default
     seed-endcity: 10387313
     seed-bastion: 30084232
     seed-fortress: 30084232
@@ -97,6 +112,12 @@ world-settings:
       exp: 3.0
       item: 2.5
     growth:
+      torchflower-modifier: 100
+      twistingvines-modifier: 100
+      weepingvines-modifier: 100
+      cavevines-modifier: 100
+      glowberry-modifier: 100
+      pitcherplant-modifier: 100
       cactus-modifier: 100
       cane-modifier: 100
       melon-modifier: 100
@@ -114,6 +135,7 @@ world-settings:
       sweetberry-modifier: 100
       kelp-modifier: 100
     entity-activation-range:
+      ignore-spectators: false
       villagers: 32
       flying-monsters: 32
       villagers-work-immunity-after: 100
@@ -139,6 +161,7 @@ world-settings:
         flying-monsters-every: 200
         flying-monsters-for: 100
     entity-tracking-range:
+      display: 128
       players: 48
       animals: 48
       monsters: 48

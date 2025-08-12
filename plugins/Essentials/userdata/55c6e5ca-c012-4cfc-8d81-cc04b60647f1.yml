@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.108.93.46
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1754561835301
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1754568168753
+  login: 1754567116155
+money: '0'
+last-account-name: JhordanPG
+lastlocation:
+  world: 87b6b1a1-9d11-4a75-9f7e-755a5663fcf9
+  world-name: buildbattle_world
+  x: -216.39066291636468
+  y: 26.0
+  z: 295.11649748092503
+  yaw: -101.42515563964844
+  pitch: -19.650033950805664
+logoutlocation:
+  world: 87b6b1a1-9d11-4a75-9f7e-755a5663fcf9
+  world-name: buildbattle_world
+  x: -235.51711690690016
+  y: 26.0
+  z: 302.1250493785404
+  yaw: -54.3367919921875
+  pitch: -17.84977912902832

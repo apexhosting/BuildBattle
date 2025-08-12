@@ -1,668 +1,1124 @@
 # Items from particles menu
 
+ASH:
+  displayname: '&6Ash'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: CHARCOAL
+  permission: buildbattle.particles
+  disabled: false
+BARRIER:
+  displayname: '&6Barrier'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: BARRIER
+  permission: buildbattle.particles
+  disabled: false
+BLOCK_CRACK:
+  displayname: '&6Block Crack'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: PAPER
+  permission: buildbattle.particles
+  disabled: false
+BLOCK_DUST:
+  displayname: '&6Block Dust'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: PAPER
+  permission: buildbattle.particles
+  disabled: false
+BUBBLE_COLUMN_UP:
+  displayname: '&6Bubble Column Up'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: WATER_BUCKET
+  permission: buildbattle.particles
+  disabled: false
+BUBBLE_POP:
+  displayname: '&6Bubble Pop'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: WATER_BUCKET
+  permission: buildbattle.particles
+  disabled: false
+CAMPFIRE_COSY_SMOKE:
+  displayname: '&6Campfire Cosy Smoke'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: CAMPFIRE
+  permission: buildbattle.particles
+  disabled: false
+CAMPFIRE_SIGNAL_SMOKE:
+  displayname: '&6Campfire Signal Smoke'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: CAMPFIRE
+  permission: buildbattle.particles
+  disabled: false
+CLOUD:
+  displayname: '&6Cloud'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: SNOW_BLOCK
+  permission: buildbattle.particles
+  disabled: false
+COMPOSTER:
+  displayname: '&6Composter'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: COMPOSTER
+  permission: buildbattle.particles
+  disabled: false
+CRIMSON_SPORE:
+  displayname: '&6Crimson Spore'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: CRIMSON_FUNGUS
+  permission: buildbattle.particles
+  disabled: false
+CRIT:
+  displayname: '&6Critical'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: LIGHT_GRAY_DYE
+  permission: buildbattle.particles
+  disabled: false
+CRIT_MAGIC:
+  displayname: '&6Critical Magic'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: CYAN_DYE
+  permission: buildbattle.particles
+  disabled: false
+CURRENT_DOWN:
+  displayname: '&6Current Down'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: WATER_BUCKET
+  permission: buildbattle.particles
+  disabled: false
+DAMAGE_INDICATOR:
+  displayname: '&6Damage Indicator'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: NETHER_WART
+  permission: buildbattle.particles
+  disabled: false
+DOLPHIN:
+  displayname: '&6Dolphin'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: DOLPHIN_SPAWN_EGG
+  permission: buildbattle.particles
+  disabled: false
+DRAGON_BREATH:
+  displayname: '&6Dragon Breath'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: DRAGON_BREATH
+  permission: buildbattle.particles
+  disabled: false
+DRIP_LAVA:
+  displayname: '&6Drip Lava'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: LAVA_BUCKET
+  permission: buildbattle.particles
+  disabled: false
+DRIP_WATER:
+  displayname: '&6Drip Water'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: WATER_BUCKET
+  permission: buildbattle.particles
+  disabled: false
+DRIPPING_HONEY:
+  displayname: '&6Dripping Honey'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: HONEYCOMB
+  permission: buildbattle.particles
+  disabled: false
+DRIPPING_OBSIDIAN_TEAR:
+  displayname: '&6Dripping Obsidian Tear'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: OBSIDIAN
+  permission: buildbattle.particles
+  disabled: false
+ENCHANTMENT_TABLE:
+  displayname: '&6Enchantment Table'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: ENCHANTING_TABLE
+  permission: buildbattle.particles
+  disabled: false
+END_ROD:
+  displayname: '&6End Rod'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: END_ROD
+  permission: buildbattle.particles
+  disabled: false
 EXPLOSION_NORMAL:
   displayname: '&6Explosion Normal'
   lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: SNOWBALL
-  permission: particles.VIP
+  - Click to activate
+  - on your location
+  material-name: TNT
+  permission: buildbattle.particles
+  disabled: false
 EXPLOSION_LARGE:
   displayname: '&6Explosion Large'
   lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: SNOWBALL
-  permission: particles.VIP
+  - Click to activate
+  - on your location
+  material-name: TNT
+  permission: buildbattle.particles
+  disabled: false
 EXPLOSION_HUGE:
   displayname: '&6Explosion Huge'
   lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: SNOWBALL
-  permission: particles.VIP
+  - Click to activate
+  - on your location
+  material-name: TNT
+  permission: buildbattle.particles
+  disabled: false
+FALLING_DUST:
+  displayname: '&6Falling Dust'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: MELON_SEEDS
+  permission: buildbattle.particles
+  disabled: false
+FALLING_HONEY:
+  displayname: '&6Falling Honey'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: HONEYCOMB
+  permission: buildbattle.particles
+  disabled: false
+FALLING_LAVA:
+  displayname: '&6Falling Lava'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: LAVA_BUCKET
+  permission: buildbattle.particles
+  disabled: false
+FALLING_NECTAR:
+  displayname: '&6Falling Nectar'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: WHITE_TERRACOTTA
+  permission: buildbattle.particles
+  disabled: false
+FALLING_OBSIDIAN_TEAR:
+  displayname: '&6Falling Obsidian Tear'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: OBSIDIAN
+  permission: buildbattle.particles
+  disabled: false
+FALLING_WATER:
+  displayname: '&6Falling Water'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: WATER_BUCKET
+  permission: buildbattle.particles
+  disabled: false
 FIREWORKS_SPARK:
   displayname: '&6Fireworks Spark'
   lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: BONE_MEAL
-  permission: particles.VIP
+  - Click to activate
+  - on your location
+  material-name: FIREWORK_ROCKET
+  permission: buildbattle.particles
+  disabled: false
+FLAME:
+  displayname: '&6Flame'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: BLAZE_POWDER
+  permission: buildbattle.particles
+  disabled: false
+FLASH:
+  displayname: '&6Flash'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: NETHER_STAR
+  permission: buildbattle.particles
+  disabled: false
+HEART:
+  displayname: '&6Heart'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: REDSTONE
+  permission: buildbattle.particles
+  disabled: false
+ITEM_CRACK:
+  displayname: '&6Item Cract'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: PAPER
+  permission: buildbattle.particles
+  disabled: false
+LANDING_HONEY:
+  displayname: '&6Landing Honey'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: HONEYCOMB
+  permission: buildbattle.particles
+  disabled: false
+LANDING_LAVA:
+  displayname: '&6Landing Lava'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: LAVA_BUCKET
+  permission: buildbattle.particles
+  disabled: false
+LANDING_OBSIDIAN_TEAR:
+  displayname: '&6Landing Obsidian Tear'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: OBSIDIAN
+  permission: buildbattle.particles
+  disabled: false
+LAVA:
+  displayname: '&6Lava'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: LAVA_BUCKET
+  permission: buildbattle.particles
+  disabled: false
+MOB_APPEARANCE:
+  displayname: '&6Mob Appearance'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: PAPER
+  permission: buildbattle.particles
+  disabled: false
+NAUTILUS:
+  displayname: '&6Nautilus'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: NAUTILUS_SHELL
+  permission: buildbattle.particles
+  disabled: false
+NOTE:
+  displayname: '&6Note'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: NOTE_BLOCK
+  permission: buildbattle.particles
+  disabled: false
+PORTAL:
+  displayname: '&6Portal'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: ENDER_EYE
+  permission: buildbattle.particles
+  disabled: false
+REDSTONE:
+  displayname: '&6Redstone'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: REDSTONE
+  permission: buildbattle.particles
+  disabled: false
+REVERSE_PORTAL:
+  displayname: '&6Reverse Portal'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: ENDER_EYE
+  permission: buildbattle.particles
+  disabled: false
+SLIME:
+  displayname: '&6Slime'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: SLIME_BLOCK
+  permission: buildbattle.particles
+  disabled: false
+SMOKE_NORMAL:
+  data: 0
+  displayname: '&6Smoke Normal'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: FLINT
+  permission: buildbattle.particles
+  disabled: false
+SMOKE_LARGE:
+  displayname: '&6Smoke Large'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: COAL_BLOCK
+  permission: buildbattle.particles
+  disabled: false
+SNEEZE:
+  displayname: '&6Sneeze'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: BAMBOO
+  permission: buildbattle.particles
+  disabled: false
+SNOWBALL:
+  displayname: '&6Snowball'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: SNOWBALL
+  permission: buildbattle.particles
+  disabled: false
+SNOW_SHOVEL:
+  displayname: '&6Snow Shovel'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: SNOWBALL
+  permission: buildbattle.particles
+  disabled: false
+SOUL:
+  displayname: '&6Soul'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: SOUL_SAND
+  permission: buildbattle.particles
+  disabled: false
+SOUL_FIRE_FLAME:
+  displayname: '&6Soul Fire Flame'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: SOUL_CAMPFIRE
+  permission: buildbattle.particles
+  disabled: false
+SPELL:
+  displayname: '&6Spell'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: SPLASH_POTION
+  permission: buildbattle.particles
+  disabled: false
+SPELL_INSTANT:
+  displayname: '&6Spell Instant'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: SPLASH_POTION
+  permission: buildbattle.particles
+  disabled: false
+SPELL_MOB:
+  displayname: '&6Spell Mob'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: LINGERING_POTION
+  permission: buildbattle.particles
+  disabled: false
+SPELL_MOB_AMBIENT:
+  displayname: '&6Spell Mob Ambient'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: LINGERING_POTION
+  permission: buildbattle.particles
+  disabled: false
+SPELL_WITCH:
+  displayname: '&6Spell Witch'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: WITCH_SPAWN_EGG
+  permission: buildbattle.particles
+  disabled: false
+SPIT:
+  displayname: '&6Spit'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: LLAMA_SPAWN_EGG
+  permission: buildbattle.particles
+  disabled: false
+SQUID_INK:
+  displayname: '&6Squid Ink'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: INK_SAC
+  permission: buildbattle.particles
+  disabled: false
+SUSPENDED:
+  displayname: '&6Suspended'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: INK_SAC
+  permission: buildbattle.particles
+  disabled: false
+SUSPENDED_DEPTH:
+  displayname: '&6Suspended Depth'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: INK_SAC
+  permission: buildbattle.particles
+  disabled: false
+SWEEP_ATTACK:
+  displayname: '&6Sweep Attack'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: IRON_SWORD
+  permission: buildbattle.particles
+  disabled: false
+TOTEM:
+  displayname: '&6Totem'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: TOTEM_OF_UNDYING
+  permission: buildbattle.particles
+  disabled: false
+TOWN_AURA:
+  displayname: '&6Town Aura'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: COAL
+  permission: buildbattle.particles
+  disabled: false
+VILLAGER_ANGRY:
+  displayname: '&6Villager Angry'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: EMERALD
+  permission: buildbattle.particles
+  disabled: false
+VILLAGER_HAPPY:
+  displayname: '&6Villager Happy'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: EMERALD
+  permission: buildbattle.particles
+  disabled: false
+WARPED_SPORE:
+  displayname: '&6Warped Spore'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: WARPED_ROOTS
+  permission: buildbattle.particles
+  disabled: false
 WATER_BUBBLE:
   displayname: '&6Water Bubble'
   lore:
-  - '&7Click to activate'
-  - '&7on your location'
+  - Click to activate
+  - on your location
   material-name: WATER_BUCKET
-  permission: particles.VIP
+  permission: buildbattle.particles
+  disabled: false
 WATER_SPLASH:
   displayname: '&6Water Splash'
   lore:
-  - '&7Click to activate'
-  - '&7on your location'
+  - Click to activate
+  - on your location
   material-name: WATER_BUCKET
-  permission: particles.VIP
+  permission: buildbattle.particles
+  disabled: false
 WATER_WAKE:
   displayname: '&6Water Wake'
   lore:
   - Click to activate
   - on your location
   material-name: WATER_BUCKET
-  permission: particles.VIP
-SUSPENDED:
-  displayname: '&6Suspended'
+  permission: buildbattle.particles
+  disabled: false
+WHITE_ASH:
+  displayname: '&6White Ash'
   lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: INK_SAC
-  permission: particles.VIP
-SUSPENDED_DEPTH:
-  displayname: '&6Suspended Depth'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: INK_SAC
-  permission: particles.VIP
-CRIT:
-  displayname: '&6Critical'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: LIGHT_GRAY_DYE
-  permission: particles.VIP
-CRIT_MAGIC:
-  displayname: '&6Critical Magic'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: CYAN_DYE
-  permission: particles.VIP
-SMOKE_NORMAL:
-  data: 0
-  displayname: '&6Smoke Normal'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: FLINT
-  permission: particles.VIP
-SMOKE_LARGE:
-  displayname: '&6Smoke Large'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: COAL_BLOCK
-  permission: particles.VIP
-SPELL:
-  displayname: '&6Spell'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: NETHER_WART
-  permission: particles.VIP
-SPELL_INSTANT:
-  displayname: '&6Spell Instant'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: NETHER_WART
-  permission: particles.VIP
-SPELL_MOB:
-  displayname: '&6Spell Mob'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: NETHER_WART
-  permission: particles.VIP
-SPELL_MOB_AMBIENT:
-  displayname: '&6Spell Mob Ambient'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: NETHER_WART
-  permission: particles.VIP
-SPELL_WITCH:
-  displayname: '&6Spell Witch'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: NETHER_WART
-  permission: particles.VIP
-DRIP_WATER:
-  displayname: '&6Drip Water'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: POTION
-  permission: particles.VIP
-DRIP_LAVA:
-  displayname: '&6Drip Lava'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: LAVA_BUCKET
-  permission: particles.VIP
-VILLAGER_ANGRY:
-  displayname: '&6Villager Angry'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: EMERALD
-  permission: particles.VIP
-VILLAGER_HAPPY:
-  displayname: '&6Villager Happy'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: EMERALD
-  permission: particles.VIP
-TOWN_AURA:
-  displayname: '&6Town Aura'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: COAL
-  permission: particles.VIP
-NOTE:
-  displayname: '&6NOTE'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: BLAZE_POWDER
-  permission: particles.VIP
-PORTAL:
-  displayname: '&6Portal'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: ENDER_EYE
-  permission: particles.VIP
-ENCHANTMENT_TABLE:
-  displayname: '&6Enchantment Table'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: ENCHANTING_TABLE
-  permission: particles.VIP
-FLAME:
-  displayname: '&6Flame'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: BLAZE_POWDER
-  permission: particles.VIP
-LAVA:
-  displayname: '&6Lava'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: LAVA_BUCKET
-  permission: particles.VIP
-CLOUD:
-  displayname: '&6Cloud'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: SNOW_BLOCK
-  permission: particles.VIP
-SNOWBALL:
-  displayname: '&6Snowball'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: SNOWBALL
-  permission: particles.VIP
-SNOW_SHOVEL:
-  displayname: '&6Snow Shovel'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: SNOWBALL
-  permission: particles.VIP
-SLIME:
-  displayname: '&6Slime'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: SLIME_BLOCK
-  permission: particles.VIP
-HEART:
-  displayname: '&6Heart'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: REDSTONE
-  permission: particles.VIP
-BARRIER:
-  displayname: '&6Barrier'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: BARRIER
-  permission: particles.VIP
+  - Click to activate
+  - on your location
+  material-name: BONE_MEAL
+  permission: buildbattle.particles
+  disabled: false
 WATER_DROP:
   displayname: '&6Water Drop'
   lore:
-  - '&7Click to activate'
-  - '&7on your location'
+  - Click to activate
+  - on your location
   material-name: WATER_BUCKET
-  permission: particles.VIP
-REDSTONE:
-  displayname: '&6REDSTONE'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-ITEM_CRACK:
-  displayname: '&6ITEM_CRACK'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-BLOCK_CRACK:
-  displayname: '&6BLOCK_CRACK'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-BLOCK_DUST:
-  displayname: '&6BLOCK_DUST'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-MOB_APPEARANCE:
-  displayname: '&6MOB_APPEARANCE'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-DRAGON_BREATH:
-  displayname: '&6DRAGON_BREATH'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-END_ROD:
-  displayname: '&6END_ROD'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-DAMAGE_INDICATOR:
-  displayname: '&6DAMAGE_INDICATOR'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-SWEEP_ATTACK:
-  displayname: '&6SWEEP_ATTACK'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-FALLING_DUST:
-  displayname: '&6FALLING_DUST'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-TOTEM:
-  displayname: '&6TOTEM'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-SPIT:
-  displayname: '&6SPIT'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-SQUID_INK:
-  displayname: '&6SQUID_INK'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-BUBBLE_POP:
-  displayname: '&6BUBBLE_POP'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-CURRENT_DOWN:
-  displayname: '&6CURRENT_DOWN'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-BUBBLE_COLUMN_UP:
-  displayname: '&6BUBBLE_COLUMN_UP'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-NAUTILUS:
-  displayname: '&6NAUTILUS'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-DOLPHIN:
-  displayname: '&6DOLPHIN'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-SNEEZE:
-  displayname: '&6SNEEZE'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-CAMPFIRE_COSY_SMOKE:
-  displayname: '&6CAMPFIRE_COSY_SMOKE'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-CAMPFIRE_SIGNAL_SMOKE:
-  displayname: '&6CAMPFIRE_SIGNAL_SMOKE'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-COMPOSTER:
-  displayname: '&6COMPOSTER'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-FLASH:
-  displayname: '&6FLASH'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-FALLING_LAVA:
-  displayname: '&6FALLING_LAVA'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-LANDING_LAVA:
-  displayname: '&6LANDING_LAVA'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-FALLING_WATER:
-  displayname: '&6FALLING_WATER'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-DRIPPING_HONEY:
-  displayname: '&6DRIPPING_HONEY'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-FALLING_HONEY:
-  displayname: '&6FALLING_HONEY'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-LANDING_HONEY:
-  displayname: '&6LANDING_HONEY'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
-FALLING_NECTAR:
-  displayname: '&6FALLING_NECTAR'
-  lore:
-  - '&7Click to activate'
-  - '&7on your location'
-  material-name: PAPER
-  permission: particles.VIP
+  permission: buildbattle.particles
+  disabled: false
 LEGACY_BLOCK_CRACK:
-  displayname: '&6LEGACY_BLOCK_CRACK'
+  displayname: '&6Legacy Block Crack'
   lore:
-  - '&7Click to activate'
-  - '&7on your location'
+  - Click to activate
+  - on your location
   material-name: PAPER
-  permission: particles.VIP
+  permission: buildbattle.particles
+  disabled: true
 LEGACY_BLOCK_DUST:
-  displayname: '&6LEGACY_BLOCK_DUST'
+  displayname: '&6Legacy Block Crack'
   lore:
-  - '&7Click to activate'
-  - '&7on your location'
+  - Click to activate
+  - on your location
   material-name: PAPER
-  permission: particles.VIP
+  permission: buildbattle.particles
+  disabled: true
 LEGACY_FALLING_DUST:
-  displayname: '&6LEGACY_FALLING_DUST'
+  displayname: '&6Legacy Falling Dust'
+  lore:
+  - Click to activate
+  - on your location
+  material-name: PAPER
+  permission: buildbattle.particles
+  disabled: true
+POOF:
+  displayname: '&6POOF'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
-SOUL_FIRE_FLAME:
-  displayname: '&6SOUL_FIRE_FLAME'
+  permission: buildbattle.particles
+EXPLOSION:
+  displayname: '&6EXPLOSION'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
-ASH:
-  displayname: '&6ASH'
+  permission: buildbattle.particles
+EXPLOSION_EMITTER:
+  displayname: '&6EXPLOSION_EMITTER'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
-CRIMSON_SPORE:
-  displayname: '&6CRIMSON_SPORE'
+  permission: buildbattle.particles
+FIREWORK:
+  displayname: '&6FIREWORK'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
-WARPED_SPORE:
-  displayname: '&6WARPED_SPORE'
+  permission: buildbattle.particles
+BUBBLE:
+  displayname: '&6BUBBLE'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
-SOUL:
-  displayname: '&6SOUL'
+  permission: buildbattle.particles
+SPLASH:
+  displayname: '&6SPLASH'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
-DRIPPING_OBSIDIAN_TEAR:
-  displayname: '&6DRIPPING_OBSIDIAN_TEAR'
+  permission: buildbattle.particles
+FISHING:
+  displayname: '&6FISHING'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
-FALLING_OBSIDIAN_TEAR:
-  displayname: '&6FALLING_OBSIDIAN_TEAR'
+  permission: buildbattle.particles
+UNDERWATER:
+  displayname: '&6UNDERWATER'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
-LANDING_OBSIDIAN_TEAR:
-  displayname: '&6LANDING_OBSIDIAN_TEAR'
+  permission: buildbattle.particles
+ENCHANTED_HIT:
+  displayname: '&6ENCHANTED_HIT'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
-REVERSE_PORTAL:
-  displayname: '&6REVERSE_PORTAL'
+  permission: buildbattle.particles
+SMOKE:
+  displayname: '&6SMOKE'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
-WHITE_ASH:
-  displayname: '&6WHITE_ASH'
+  permission: buildbattle.particles
+LARGE_SMOKE:
+  displayname: '&6LARGE_SMOKE'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
-LIGHT:
-  displayname: '&6LIGHT'
+  permission: buildbattle.particles
+EFFECT:
+  displayname: '&6EFFECT'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
+  permission: buildbattle.particles
+INSTANT_EFFECT:
+  displayname: '&6INSTANT_EFFECT'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+ENTITY_EFFECT:
+  displayname: '&6ENTITY_EFFECT'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+WITCH:
+  displayname: '&6WITCH'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+DRIPPING_WATER:
+  displayname: '&6DRIPPING_WATER'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+DRIPPING_LAVA:
+  displayname: '&6DRIPPING_LAVA'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+ANGRY_VILLAGER:
+  displayname: '&6ANGRY_VILLAGER'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+HAPPY_VILLAGER:
+  displayname: '&6HAPPY_VILLAGER'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+MYCELIUM:
+  displayname: '&6MYCELIUM'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+ENCHANT:
+  displayname: '&6ENCHANT'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+DUST:
+  displayname: '&6DUST'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+ITEM_SNOWBALL:
+  displayname: '&6ITEM_SNOWBALL'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+ITEM_SLIME:
+  displayname: '&6ITEM_SLIME'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+ITEM:
+  displayname: '&6ITEM'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+BLOCK:
+  displayname: '&6BLOCK'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+RAIN:
+  displayname: '&6RAIN'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+ELDER_GUARDIAN:
+  displayname: '&6ELDER_GUARDIAN'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+TOTEM_OF_UNDYING:
+  displayname: '&6TOTEM_OF_UNDYING'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
 DUST_COLOR_TRANSITION:
   displayname: '&6DUST_COLOR_TRANSITION'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
+  permission: buildbattle.particles
 VIBRATION:
   displayname: '&6VIBRATION'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
+  permission: buildbattle.particles
 FALLING_SPORE_BLOSSOM:
   displayname: '&6FALLING_SPORE_BLOSSOM'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
+  permission: buildbattle.particles
 SPORE_BLOSSOM_AIR:
   displayname: '&6SPORE_BLOSSOM_AIR'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
+  permission: buildbattle.particles
 SMALL_FLAME:
   displayname: '&6SMALL_FLAME'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
+  permission: buildbattle.particles
 SNOWFLAKE:
   displayname: '&6SNOWFLAKE'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
+  permission: buildbattle.particles
 DRIPPING_DRIPSTONE_LAVA:
   displayname: '&6DRIPPING_DRIPSTONE_LAVA'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
+  permission: buildbattle.particles
 FALLING_DRIPSTONE_LAVA:
   displayname: '&6FALLING_DRIPSTONE_LAVA'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
+  permission: buildbattle.particles
 DRIPPING_DRIPSTONE_WATER:
   displayname: '&6DRIPPING_DRIPSTONE_WATER'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
+  permission: buildbattle.particles
 FALLING_DRIPSTONE_WATER:
   displayname: '&6FALLING_DRIPSTONE_WATER'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
+  permission: buildbattle.particles
 GLOW_SQUID_INK:
   displayname: '&6GLOW_SQUID_INK'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
+  permission: buildbattle.particles
 GLOW:
   displayname: '&6GLOW'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
+  permission: buildbattle.particles
 WAX_ON:
   displayname: '&6WAX_ON'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
+  permission: buildbattle.particles
 WAX_OFF:
   displayname: '&6WAX_OFF'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
+  permission: buildbattle.particles
 ELECTRIC_SPARK:
   displayname: '&6ELECTRIC_SPARK'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
+  permission: buildbattle.particles
 SCRAPE:
   displayname: '&6SCRAPE'
   lore:
   - '&7Click to activate'
   - '&7on your location'
   material-name: PAPER
-  permission: particles.VIP
+  permission: buildbattle.particles
+SONIC_BOOM:
+  displayname: '&6SONIC_BOOM'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+SCULK_SOUL:
+  displayname: '&6SCULK_SOUL'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+SCULK_CHARGE:
+  displayname: '&6SCULK_CHARGE'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+SCULK_CHARGE_POP:
+  displayname: '&6SCULK_CHARGE_POP'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+SHRIEK:
+  displayname: '&6SHRIEK'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+CHERRY_LEAVES:
+  displayname: '&6CHERRY_LEAVES'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+PALE_OAK_LEAVES:
+  displayname: '&6PALE_OAK_LEAVES'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+EGG_CRACK:
+  displayname: '&6EGG_CRACK'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+DUST_PLUME:
+  displayname: '&6DUST_PLUME'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+WHITE_SMOKE:
+  displayname: '&6WHITE_SMOKE'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+GUST:
+  displayname: '&6GUST'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+SMALL_GUST:
+  displayname: '&6SMALL_GUST'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+GUST_EMITTER_LARGE:
+  displayname: '&6GUST_EMITTER_LARGE'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+GUST_EMITTER_SMALL:
+  displayname: '&6GUST_EMITTER_SMALL'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+TRIAL_SPAWNER_DETECTION:
+  displayname: '&6TRIAL_SPAWNER_DETECTION'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+TRIAL_SPAWNER_DETECTION_OMINOUS:
+  displayname: '&6TRIAL_SPAWNER_DETECTION_OMINOUS'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+VAULT_CONNECTION:
+  displayname: '&6VAULT_CONNECTION'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+INFESTED:
+  displayname: '&6INFESTED'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+ITEM_COBWEB:
+  displayname: '&6ITEM_COBWEB'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+DUST_PILLAR:
+  displayname: '&6DUST_PILLAR'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+BLOCK_CRUMBLE:
+  displayname: '&6BLOCK_CRUMBLE'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+TRAIL:
+  displayname: '&6TRAIL'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+OMINOUS_SPAWNING:
+  displayname: '&6OMINOUS_SPAWNING'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+RAID_OMEN:
+  displayname: '&6RAID_OMEN'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+TRIAL_OMEN:
+  displayname: '&6TRIAL_OMEN'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
+BLOCK_MARKER:
+  displayname: '&6BLOCK_MARKER'
+  lore:
+  - '&7Click to activate'
+  - '&7on your location'
+  material-name: PAPER
+  permission: buildbattle.particles
