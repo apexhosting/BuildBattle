@@ -1,6 +1,19 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 3.0
+
+- All plugins were updated to their latest available versions.
+- HolographicsDisplays was changed to DecentHolograms.
+- The version was updated from 1.17.1 to 1.21.4.
+- Changed %essentialsnick% to %essentials_nickname% in the TAB's groups.yml.
+- Changed %afk% to %essentials_afk% in the TAB's groups.yml.
+- Added the %essentials_afk% variable in placeholder-output-replacements in the TAB's config.yml to correct the AFK status in the TAB.
+- Changed the %nick% variable to %player% to display the correct name in the TAB.
+- Downloaded the Essentials & Player placeholder through PlaceholdersAPI to display the variables correctly.
+- Added the missing lines to the TAB plugin so that it does not display errors when reloading the plugin, and corrected some plugin configuration errors.
+- Recreated the arenas, as updating BuildBattle to its latest version generated multiple errors.
+
 ## 2.2
 
 ### Changed

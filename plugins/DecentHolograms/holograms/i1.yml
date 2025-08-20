@@ -1,0 +1,12 @@
+location: buildbattle_world:-215.513:28.535:298.382
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&7RIGHT CLICK'
+    height: 0.3
+  actions: {}

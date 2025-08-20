@@ -1,0 +1,32 @@
+heads:
+  register:
+    'alphabet':
+      name: "alphabet"
+      valid-version: 1.0.0
+    'animals':
+      name: "animals"
+      valid-version: 1.0.0
+    'blocks':
+      name: "blocks"
+      valid-version: 1.0.0
+    'decoration':
+      name: "decoration"
+      valid-version: 1.0.0
+    'food-drinks':
+      name: "food-drinks"
+      valid-version: 1.0.0
+    'humaniod':
+      name: "humaniod"
+      valid-version: 1.0.0
+    'humans':
+      name: "humans"
+      valid-version: 1.0.0
+    'miscellaneous':
+      name: "miscellaneous"
+      valid-version: 1.0.0
+    'monsters':
+      name: "monsters"
+      valid-version: 1.0.0
+    'plants':
+      name: "plants"
+      valid-version: 1.0.0

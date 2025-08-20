@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.108.93.46
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1754566872636
+  login: 1754566133631
+money: '0'
+last-account-name: Alberto9999
+lastlocation:
+  world: 87b6b1a1-9d11-4a75-9f7e-755a5663fcf9
+  world-name: buildbattle_world
+  x: -229.0
+  y: 26.0
+  z: 295.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 87b6b1a1-9d11-4a75-9f7e-755a5663fcf9
+  world-name: buildbattle_world
+  x: -244.75902755811276
+  y: 27.0
+  z: 301.24872395610913
+  yaw: -14.8975830078125
+  pitch: 14.100004196166992
